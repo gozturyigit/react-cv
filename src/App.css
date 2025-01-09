@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+  flex: 1;
+  max-width: 300px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.sidebar img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.sidebar h1 {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.sidebar p {
+  font-size: 14px;
+  color: #666;
+}
+
+.main-content {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  flex: 1 1 100%;
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #333;
+  display: inline-block;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li {
+  margin-bottom: 10px;
+}
+
+.section ul li strong {
+  display: inline-block;
+  width: 120px;
+}
+
+
+.social-media ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-media li {
+  margin-bottom: 10px;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.social-media a:hover {
+  color: #0077b5; /* Example hover color */
+}
+
+.social-media a svg {
+  margin-right: 10px;
+}
